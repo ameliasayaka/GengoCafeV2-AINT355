@@ -1,0 +1,268 @@
+{
+  "messageList": [
+    {
+      "text": "Konnichiwa! Anata no namae wa nandesuka?",
+      "player": false,
+      "branching": true,
+      "branches": {
+        "Watashi no namae wa ~ desu. Anata wa?": 1,
+        "Konnichiwa!": 2,
+        "Sumimasen": 3,
+        "Sorry, I don't understand": 4,
+        "Mou ichido itte kudasai!": 0
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Watashi no namae wa ~ desu. Anata wa?",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 5
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Konnichiwa",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 6
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Sumimasen",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 7
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Sorry, I don't understand",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 8
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Boku wa Kaeru desu! Yoroshiku onegaishimasu.",
+      "player": false,
+      "branching": true,
+      "branches": {
+        "Yoroshiku onegaishimasu!": 9
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks at you expectantly, waiting for you to say something more.\nHe realises that you're finished what you wanted to say, smiles and goes back to drinking his herbal tea.",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks at you in surprise.\nKaeru: E... ayamannakkutemo ii yo... \nHe looks like he feels a little bad and goes back to his tea",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Kaoru looks at you and says OK!",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Yoroshiku onegaishimasu!",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 10
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "~san wa genki desu ka?",
+      "player": false,
+      "branching": true,
+      "branches": {
+        "Hai, genki desu! Anata wa?": 11,
+        "Sorry, I don't understand": 4,
+        "Hai, nihonjin de wa arimasen": 12,
+        "Ohayougozaimasu": 13
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Hai, genki desu! Anata wa?",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 16
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Hai, nihonjin de wa arimasen",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 14
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Ohayougozaimasu",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 15
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks a little confused.\nKaoru: Aa.. sou desu ne.\nHe Goes back to drinking his tea",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks confused\nKaoru: Ima wa gogo desu yo.\nHe goes back to his tea",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Genki desu yo! Mata ashita shabeyoune",
+      "player": false,
+      "branching": true,
+      "branches": {
+        "Un! Ja-ne!": 17,
+        "Hajimemashite": 18,
+        "Sorry, I don't understand": 4,
+        "Sou desu ka?": 19
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Un! Ja-ne!",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 20
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Hajimemashite",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 21
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "Sou desu ka?",
+      "player": true,
+      "branching": false,
+      "branches": {
+        "Next": 22
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks pleased!\nFriendship up! next convo unlocked for next time",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks a little confused and goes back to drinking his tea",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    },
+    {
+      "text": "He looks confused.\nKaeru: Sou desu...\nHe goes back to drinking his tea",
+      "player": false,
+      "branching": false,
+      "branches": {
+        "Next": -1
+      },
+      "playerAnimState": 0,
+      "npcAnimState": 0,
+      "progression": 0.0
+    }
+  ],
+  "NPC": null
+}
