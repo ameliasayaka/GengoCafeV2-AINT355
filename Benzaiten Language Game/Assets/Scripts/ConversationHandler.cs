@@ -32,6 +32,10 @@ public class ConversationHandler : MonoBehaviour
 
     private DataHolder dataHolder;
 
+    //Voice lines fields
+    GameObject voiceSource;
+    PlayAudio playAudioScript;
+
     // TESTING OBJECT
     public GameObject endPanel;
 
@@ -40,6 +44,10 @@ public class ConversationHandler : MonoBehaviour
         random = new Random();
         lastTime = Time.time;
         delay = 0.02f;
+
+        ////get audio components for voice lines
+        voiceSource = GameObject.FindGameObjectWithTag("VoiceHolder");
+        playAudioScript = voiceSource.GetComponent<PlayAudio>();
 
         try
         {
@@ -195,6 +203,7 @@ public class ConversationHandler : MonoBehaviour
         playerAnim.SetInteger("MessageState", currentMessage.PlayerAnimState);
         npcAnim.SetInteger("MessageState", currentMessage.NpcAnimState);
 
+        //player response buttons
         if (currentMessage.Branching)
         {
             Dictionary<string, int> branches = currentMessage.Branches;
@@ -224,5 +233,8 @@ public class ConversationHandler : MonoBehaviour
                 buttonList[i].transform.parent.gameObject.SetActive(false);
             }
         }
+
+        //Audio
+        playAudioScript.PlayVoiceLine(currentMessage.Voice);
     }
 }

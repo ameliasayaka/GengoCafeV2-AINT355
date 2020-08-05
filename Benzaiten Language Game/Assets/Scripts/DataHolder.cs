@@ -12,10 +12,11 @@ public class DataHolder : MonoBehaviour
     public string fileName;
     public Player player;
     private bool fileDetected;
-    private PhraseBook phrasebook;
+    public PhraseBook phrasebook;
     private UnityWebRequest dateConnection;
     private AudioSource audio;
     private float volume;
+    private VoiceLines voiceLines;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +24,13 @@ public class DataHolder : MonoBehaviour
         DontDestroyOnLoad(this);
 
         phrasebook = new PhraseBook();
+        voiceLines = new VoiceLines();
         audio = GetComponent<AudioSource>();
         volume = 0.6f;
         audio.volume = volume;
 
+        //checks if voice line audio clips loaded properly
+        //Debug.Log(voiceLines.AudioClips.Length);
 
         if (File.Exists(Application.persistentDataPath + "/PlayerData.save"))
         {
@@ -127,11 +131,20 @@ public class DataHolder : MonoBehaviour
         Application.Quit();
     }
 
+    //properties
     public PhraseBook Phrasebook
     {
         get
         {
             return phrasebook;
+        }
+    }
+
+    public VoiceLines VoiceLines
+    {
+        get
+        {
+            return voiceLines;
         }
     }
 

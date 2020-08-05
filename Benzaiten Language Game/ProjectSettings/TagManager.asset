@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cafe
   - DataHolder
+  - VoiceHolder
   layers:
   - Default
   - TransparentFX

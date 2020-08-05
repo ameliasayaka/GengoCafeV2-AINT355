@@ -16,6 +16,8 @@ public class Message
     [JsonProperty]
     private int playerAnimState, npcAnimState;
     [JsonProperty]
+    private int voice;
+    [JsonProperty]
     private float progression;
 
     public Message(string text, bool player)
@@ -26,6 +28,7 @@ public class Message
         branches = new Dictionary<string, int>();
         progression = 0;
         playerAnimState = 0;
+        voice = 0;
         npcAnimState = 0;
     }
 
@@ -75,6 +78,14 @@ public class Message
         get
         {
             return npcAnimState;
+        }
+    }
+    [JsonIgnore]
+    public int Voice
+    {
+        get
+        {
+            return voice;
         }
     }
     [JsonIgnore]
