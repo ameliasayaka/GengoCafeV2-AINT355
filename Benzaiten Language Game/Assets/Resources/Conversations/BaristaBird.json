@@ -12,7 +12,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 32,
       "progression": 0
     },
     {
@@ -63,7 +63,7 @@
       "progression": 0
     },
     {
-      "text": "Tabemono ya nomimono no osusume wo docchi shimasu ka?",
+      "text": "Tabemono ya nomimono no osusumemono docchi kikitai desu ka?",
       "player": false,
       "branching": true,
       "branches": {
@@ -73,12 +73,12 @@
         "Doubutsu suki desu ka?": 9
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 3,
       "voice": 0,
       "progression": 0
     },
     {
-      "text": "Ryouhou no osusumemono wo onegaishimasu!",
+      "text": "Ryouhou no osusumemono onegaishimasu!",
       "player": true,
       "branching": false,
       "branches": {
@@ -126,7 +126,7 @@
       "progression": 0
     },
     {
-      "text": "Hai! Osusume na nomimono wa latte aato no kapachiino. Sugoku kawaii desu yo! Osusume na tabemono wa omuraisu desu. Koko no omraisu wa totemo ninki desu!",
+      "text": "Hai! Osusume na nomimono wa latte aato no kapachiino. Sugoku kawaii desu yo! Osusume na tabemono wa omuraisu desu. Koko no omuraisu wa totemo ninki desu!",
       "player": false,
       "branching": true,
       "branches": {
@@ -136,7 +136,7 @@
         "Sorry, I don't understand": 17
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 3,
       "voice": 0,
       "progression": 0
     },
@@ -148,7 +148,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -160,7 +160,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -172,7 +172,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -225,7 +225,7 @@
       "progression": 0
     },
     {
-      "text": "Kashikomarimashita! Sore wa sen gohyaku yen wo kakarimasu.",
+      "text": "Kashikomarimashita! Sore wa sen gohyaku yen desu",
       "player": false,
       "branching": true,
       "branches": {
@@ -235,19 +235,19 @@
         "Could you tell me how much it costs in English?": 21
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 3,
       "voice": 0,
       "progression": 0
     },
     {
-      "text": "Kyoudai arimasu kedo, sore wa ima no hanashi de wa arimasen. Sumimasen, hokano okyakusan wa mattemasu. She movesonto the next customer.",
+      "text": "Kyoudai arimasu kedo, sore wa ima no hanashi de wa arimasen. Sumimasen, hokano okyakusan wa mattemasu. She moves onto the next customer.",
       "player": false,
       "branching": false,
       "branches": {
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -271,7 +271,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -336,14 +336,14 @@
       "progression": 0
     },
     {
-      "text": "Kashikomarimashita! Oshosho omachi kudasai! you get your latte and omuraisu.",
+      "text": "Kashikomarimashita! Oshosho omachi kudasai! You get your latte and omuraisu.",
       "player": true,
       "branching": false,
       "branches": {
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 3,
       "voice": 0,
       "progression": 1
     },
@@ -355,7 +355,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     },
@@ -367,7 +367,7 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
+      "npcAnimState": 2,
       "voice": 0,
       "progression": 0
     }

@@ -6,9 +6,10 @@ public class VoiceLines
 {
     private AudioClip[] audioClips;
 
-    public VoiceLines()
+    public VoiceLines(string path)
     {
-        audioClips = Resources.LoadAll<AudioClip>("VoiceLines/");
+        audioClips = Resources.LoadAll<AudioClip>(path);
+        //Debug.Log(audioClips.Length);
     }
 
     public AudioClip[] AudioClips

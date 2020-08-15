@@ -35,6 +35,7 @@ public class ConversationHandler : MonoBehaviour
     //Voice lines fields
     GameObject voiceSource;
     PlayAudio playAudioScript;
+   // VoiceLines voiceLines;
 
     // TESTING OBJECT
     public GameObject endPanel;
@@ -46,6 +47,7 @@ public class ConversationHandler : MonoBehaviour
         delay = 0.02f;
 
         ////get audio components for voice lines
+        //voiceLines = new VoiceLines("VoiceLines/");
         voiceSource = GameObject.FindGameObjectWithTag("VoiceHolder");
         playAudioScript = voiceSource.GetComponent<PlayAudio>();
 
@@ -234,6 +236,7 @@ public class ConversationHandler : MonoBehaviour
             }
         }
 
+        
         //Audio
         playAudioScript.PlayVoiceLine(currentMessage.Voice);
     }

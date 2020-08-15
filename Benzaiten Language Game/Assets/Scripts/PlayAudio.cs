@@ -19,7 +19,25 @@ public class PlayAudio : MonoBehaviour
 
     public void PlayVoiceLine(int voiceLineNumber)
     {
-        voiceLine = dataHolderScript.VoiceLines.AudioClips[voiceLineNumber];
+        Debug.Log("Play audio activated");
+        Debug.Log("index is " + voiceLineNumber);
+        Debug.Log(dataHolderScript.ConversationVoiceLines.AudioClips.Length);
+        //make sure index not out of range
+        if (voiceLineNumber < dataHolderScript.ConversationVoiceLines.AudioClips.Length)
+        {
+            Debug.Log("In range");
+            voiceLine = dataHolderScript.ConversationVoiceLines.AudioClips[voiceLineNumber];
+            if (voicePlayer != null)
+            {
+                voicePlayer.clip = voiceLine;
+                voicePlayer.Play();
+            }
+        }
+    }
+    public void PlayPhrase(int phraseVoiceLineNumber)
+    {
+        Debug.Log("Phrase int is: " + phraseVoiceLineNumber);
+        voiceLine = dataHolderScript.PhraseVoiceLines.AudioClips[phraseVoiceLineNumber];
         if (voicePlayer != null)
         {
             voicePlayer.clip = voiceLine;

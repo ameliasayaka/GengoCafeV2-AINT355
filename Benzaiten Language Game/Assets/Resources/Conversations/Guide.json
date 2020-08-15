@@ -22,7 +22,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 1,
       "progression": 0.0
     },
     {
@@ -33,24 +33,24 @@
         "Next": 3
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
-      "voice": 0,
+      "npcAnimState": 3,
+      "voice": 2,
       "progression": 0.0
     },
     {
-      "text": "It's  gonna be real fun for you to make friends with loadsa new people. It'll take time to learn the language, but making those new connections is really worth it, you know?",
+      "text": "It's gonna be real fun for you to make friends with loadsa new people. It'll take time to learn the language, but making those new connections is really worth it, you know?",
       "player": false,
       "branching": false,
       "branches": {
         "Next": 4
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
-      "voice": 0,
+      "npcAnimState": 3,
+      "voice": 3,
       "progression": 0.0
     },
     {
-      "text": "How about I teach you a little bit of Japanese right now so you can make a go at saying hello and introducing yourself to the folks in the cafe ? ",
+      "text": "How about I teach you a little bit of Japanese right now so you can make a go at saying hello and introducing yourself to the folks in the cafe?",
       "player": false,
       "branching": true,
       "branches": {
@@ -59,7 +59,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 4,
       "progression": 0.0
     },
     {
@@ -71,7 +71,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 5,
       "progression": 0.0
     },
     {
@@ -85,7 +85,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 6,
       "progression": 0.0
     },
     {
@@ -97,11 +97,11 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 7,
       "progression": 0.0
     },
     {
-      "text": "So if someone asks you 'Genki desu ka ? ' you say: 'Hai, genki desu'",
+      "text": "If someone asks you 'Genki desu ka? ' you say: 'Hai, genki desu'",
       "player": false,
       "branching": false,
       "branches": {
@@ -109,11 +109,11 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 8,
       "progression": 0.0
     },
     {
-      "text": "Oh, we're nearly at the cafe now! If you want to know anymore phrases just come and ask!",
+      "text": "Oh, we're nearly at the cafe now! If you want to know any more phrases just come and ask!",
       "player": false,
       "branching": true,
       "branches": {
@@ -121,7 +121,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 9,
       "progression": 0.0
     },
     {
@@ -133,11 +133,11 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 10,
       "progression": 0.0
     },
     {
-      "text": "Okay! If you can't remember any phrases check the phrasebook in your phone or come ask me.",
+      "text": "Okay! If you can't remember any phrases check the phrasebook in your phone",
       "player": false,
       "branching": false,
       "branches": {
@@ -145,7 +145,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 11,
       "progression": 0.0
     },
     {
@@ -156,8 +156,8 @@
         "Next": -1
       },
       "playerAnimState": 0,
-      "npcAnimState": 1,
-      "voice": 0,
+      "npcAnimState": 3,
+      "voice": 12,
       "progression": 1.0
     }
   ],

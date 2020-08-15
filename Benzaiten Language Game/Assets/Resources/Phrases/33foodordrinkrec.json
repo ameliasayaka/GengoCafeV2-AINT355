@@ -1,5 +1,6 @@
 {
-  "english": "Would you like a recommendation for food or drink?",
-  "japanese": "Tabemono ya nomimono no osusume wo docchi shimasu ka?",
-  "tag": 2
+  "english": "Would you like to hear the recommendation for food or drink?",
+  "japanese": "Tabemono ya nomimono no osusumemono docchi kikitai desu ka?",
+  "tag": 2,
+  "voice": 32
 }

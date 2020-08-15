@@ -19,19 +19,19 @@ public class VolumeController : MonoBehaviour
             case 0:
                 sprite.sprite = vol0;
                 break;
-            case 0.2f:
+            case 0.005f:
                 sprite.sprite = vol20;
                 break;
-            case 0.4f:
+            case 0.01f:
                 sprite.sprite = vol40;
                 break;
-            case 0.6f:
+            case 0.015f:
                 sprite.sprite = vol60;
                 break;
-            case 0.8f:
+            case 0.02f:
                 sprite.sprite = vol80;
                 break;
-            case 1f:
+            case 0.025f:
                 sprite.sprite = vol100;
                 break;
         }
@@ -43,23 +43,23 @@ public class VolumeController : MonoBehaviour
         switch (dataHolder.Volume)
         {
             case 0:
-                dataHolder.VolumeUpdate(0.2f);
+                dataHolder.VolumeUpdate(0.005f);
                 sprite.sprite = vol20;
                 break;
             case 0.2f:
-                dataHolder.VolumeUpdate(0.4f);
+                dataHolder.VolumeUpdate(0.01f);
                 sprite.sprite = vol40;
                 break;
             case 0.4f:
-                dataHolder.VolumeUpdate(0.6f);
+                dataHolder.VolumeUpdate(0.015f);
                 sprite.sprite = vol60;
                 break;
             case 0.6f:
-                dataHolder.VolumeUpdate(0.8f);
+                dataHolder.VolumeUpdate(0.02f);
                 sprite.sprite = vol80;
                 break;
             case 0.8f:
-                dataHolder.VolumeUpdate(1f);
+                dataHolder.VolumeUpdate(0.025f);
                 sprite.sprite = vol100;
                 break;
             case 1f:

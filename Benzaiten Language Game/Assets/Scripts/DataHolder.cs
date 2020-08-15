@@ -16,7 +16,8 @@ public class DataHolder : MonoBehaviour
     private UnityWebRequest dateConnection;
     private AudioSource audio;
     private float volume;
-    private VoiceLines voiceLines;
+    private VoiceLines conversationVoiceLines;
+    private VoiceLines phraseVoiceLines;
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +25,15 @@ public class DataHolder : MonoBehaviour
         DontDestroyOnLoad(this);
 
         phrasebook = new PhraseBook();
-        voiceLines = new VoiceLines();
+        conversationVoiceLines = new VoiceLines("VoiceLines/");
+        phraseVoiceLines = new VoiceLines("PhraseVoiceLines/");
+        
         audio = GetComponent<AudioSource>();
-        volume = 0.6f;
+        volume = 0.01f;
         audio.volume = volume;
 
         //checks if voice line audio clips loaded properly
-        //Debug.Log(voiceLines.AudioClips.Length);
+        Debug.Log(conversationVoiceLines.AudioClips.Length);
 
         if (File.Exists(Application.persistentDataPath + "/PlayerData.save"))
         {
@@ -140,11 +143,18 @@ public class DataHolder : MonoBehaviour
         }
     }
 
-    public VoiceLines VoiceLines
+    public VoiceLines ConversationVoiceLines
     {
         get
         {
-            return voiceLines;
+            return conversationVoiceLines;
+        }
+    }
+    public VoiceLines PhraseVoiceLines
+    {
+        get
+        {
+            return phraseVoiceLines;
         }
     }
 
