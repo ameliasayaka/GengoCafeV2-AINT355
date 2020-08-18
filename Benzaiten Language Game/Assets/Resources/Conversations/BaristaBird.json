@@ -24,6 +24,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
+      "voice": 33,
       "progression": 0
     },
     {
@@ -35,7 +36,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 34,
       "progression": 0
     },
     {
@@ -47,7 +48,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 35,
       "progression": 0
     },
     {
@@ -59,7 +60,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 17,
       "progression": 0
     },
     {
@@ -74,7 +75,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 3,
-      "voice": 0,
+      "voice": 36,
       "progression": 0
     },
     {
@@ -86,7 +87,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 37,
       "progression": 0
     },
     {
@@ -98,7 +99,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 38,
       "progression": 0
     },
     {
@@ -110,7 +111,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 39,
       "progression": 0
     },
     {
@@ -122,7 +123,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 40,
       "progression": 0
     },
     {
@@ -137,7 +138,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 3,
-      "voice": 0,
+      "voice": 41,
       "progression": 0
     },
     {
@@ -149,7 +150,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 42,
       "progression": 0
     },
     {
@@ -161,7 +162,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 43,
       "progression": 0
     },
     {
@@ -173,7 +174,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 44,
       "progression": 0
     },
     {
@@ -185,7 +186,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 45,
       "progression": 0
     },
     {
@@ -197,7 +198,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 46,
       "progression": 0
     },
     {
@@ -209,7 +210,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 47,
       "progression": 0
     },
     {
@@ -221,7 +222,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 17,
       "progression": 0
     },
     {
@@ -236,7 +237,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 3,
-      "voice": 0,
+      "voice": 48,
       "progression": 0
     },
     {
@@ -248,7 +249,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 49,
       "progression": 0
     },
     {
@@ -260,7 +261,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 50,
       "progression": 0
     },
     {
@@ -272,7 +273,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 51,
       "progression": 0
     },
     {
@@ -284,7 +285,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 100,
       "progression": 0
     },
     {
@@ -296,7 +297,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 100,
       "progression": 0
     },
     {
@@ -308,7 +309,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 100,
       "progression": 0
     },
     {
@@ -320,7 +321,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 100,
       "progression": 0
     },
     {
@@ -332,7 +333,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 1,
-      "voice": 0,
+      "voice": 52,
       "progression": 0
     },
     {
@@ -344,7 +345,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 3,
-      "voice": 0,
+      "voice": 53,
       "progression": 1
     },
     {
@@ -356,7 +357,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 54,
       "progression": 0
     },
     {
@@ -368,7 +369,7 @@
       },
       "playerAnimState": 0,
       "npcAnimState": 2,
-      "voice": 0,
+      "voice": 100,
       "progression": 0
     }
   ],
